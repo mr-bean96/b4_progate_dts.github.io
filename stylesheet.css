@@ -243,7 +243,7 @@ header {
 .text-contents {
   padding-bottom: 20px;
   width: 80%;
-  display: inline-block;
+  display: inline;
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
