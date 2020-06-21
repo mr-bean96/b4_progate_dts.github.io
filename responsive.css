@@ -5,24 +5,27 @@
     margin-bottom: 50px;
   }
   
-  .top-wrapper h1 {
-    font-size: 32px;
+    footer {
+    text-align: left;
+  }
+
+  .top-wrapper h1{
+    font-size:32px;
+  }
+
+  /* Tambahkan CSS untuk tag <h2> didalam heading */
+  .heading h2{
+    font-size:20px;
   }
   
-  .heading h2 {
-    font-size: 20px;
-  }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .lesson {
+    .lesson {
     width: 100%;
   }
   
-  footer {
-    text-align: center;
-  }
   
   .btn {
     width: 100%;
@@ -57,4 +60,13 @@
     font-size: 14px;
     line-height: 20px;
   }
+    footer {
+    text-align: center;
+  }  
+
 }
+
+
+  
+  
+  
