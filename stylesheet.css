@@ -122,9 +122,12 @@ a {
 }
 
 .fa {
-  margin-right: 5px;
+  margin-right: 10px;
 }
-
+header .fa {
+  float: right;
+  display: none;
+}
 header {
   height: 70px;
   width: 100%;
@@ -161,18 +164,6 @@ header {
   color:yellow;
   background-color: rgba(255, 255, 255, 0.3);
 }
-
-/* Tambahkan CSS untuk menu-icon */
-.menu-icon{
-  color:white;
-  float:right;
-  font-size: 25px;
-  padding: 21px 0;
-   /* Gantikan property display ke none */
-  display:none;
-}
-
-
 .lesson-wrapper {
   padding-top: 2%;
   padding-bottom: 0%;
