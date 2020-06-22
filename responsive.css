@@ -46,12 +46,94 @@
   
   
   /* Tambahkan CSS untuk menu-icon */
- header .fa {
-   display: block;
-   color: white;
-   margin-right: 25px;
-   line-height: 65px;
+/*  dropdown menu bar  */
+  header .fa-bars {
+    display: block;
+    color: white;
+    font-size: 1.6em;
+    margin-right: 45px;
+    line-height: 65px;
+   }
+
+  .dd {
+    float: right;
+    display: block;
   }
+  .dd-a {
+    margin-top: 70px;
+    margin-right: 38px;
+  }
+  .dd input {
+    top:0;
+    opacity:0;
+    display:block;
+    padding:0;
+    margin:0;
+    border:0;
+    position:absolute;
+    height:100%;
+    width:100%;
+  }
+  .dd input:hover {
+    cursor:pointer;
+  }
+  .dd input:checked:after {
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+  }
+  .dd input:checked ~ .dd-c {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+  .dd-a span {
+    color:#C63D0F;
+  }
+  .dd-c{
+    display:block;
+    position: absolute;
+    background-color: rgba(34, 49, 52, 1);
+    height:auto;
+    transform: scaleY(0);
+    transform-origin: top left;
+    transition-duration: 0.2s;
+    -webkit-transform: scaleY(0);
+    -webkit-transform-origin: top left;
+    -webkit-transition-duration: 0.2s;
+  }
+  .dd-c ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+  }
+  .dd-c li {
+    padding: 0 10px;
+    line-height: 45px;
+    margin-botom:5px;
+    word-break: keep-all;
+    white-space:nowrap;
+    display:block;
+    position:relative;
+  }
+  header a {
+    display:block;
+    position:relative;
+    text-decoration: none;
+    padding:5px;
+    background-color: rgba(34, 49, 52, 1);
+    color: white;  
+  }
+  header a:hover {
+    color: yellow;   
+    top:0;
+    left:0;
+  }
+  header a span {
+    display:block;
+    position:relative;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+  }
+/* dropdown menu bar   */
   .top-wrapper h1 {
     font-size: 24px;
     line-height: 36px;
