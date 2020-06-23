@@ -4,9 +4,19 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: 'Lora', serif;
 }
+h1, h2, h3 {
+    font-family: 'Bree Serif', serif;
+}
+.sarana {
+  font-family: 'Lora', serif;
+  font-weight: 600;
 
+}
+.start-price, .city, .text-contents  {
+  font-family: 'Cabin', sans-serif;
+}
 a {
   text-decoration: none;
   color:white;
@@ -82,6 +92,8 @@ a {
   margin-bottom: 3px;
   font-weight: bold;
   color:black;
+  font-family: 'Cabin', sans-serif;
+
 }
 
 .btn-wrapper {
@@ -115,6 +127,8 @@ a {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
+  font-family: 'Cabin', sans-serif;
+
 }
 
 .btn:hover {
@@ -140,6 +154,8 @@ header {
   position :fixed;
   top: 0;
   z-index: 10;
+  font-family: 'Cabin', sans-serif;
+
 }
 
 .logo {
