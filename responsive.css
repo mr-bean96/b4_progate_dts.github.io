@@ -143,9 +143,35 @@
     font-size: 14px;
     line-height: 20px;
   }
-    footer {
-    text-align: center;
+     footer {
+    position: relative;
+    bottom: 0;
   }  
+  footer .container {
+    flex-wrap: wrap;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-left {
+    text-align: center;
+    line-height: 2em;
+  }
+  .footer-center {
+    width: 60%;
+  }
+  .footer-right {
+    line-height: 2em;
+    width: 100%;
+    margin: 30vw 0;
+  }
+  .newsletter {
+  justify-content: center;
+}
+  .footer-left:nth-of-type(1) { order: 1;}
+  .footer-center:nth-of-type(2) { order: 3;}
+  .footer-right:nth-of-type(3) { order: 2;}
+
 
 }
 
